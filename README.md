@@ -19,3 +19,5 @@ app.controller("HogeController",[
     $scope.mes = "表示したい文字"
   ])
 ```
+## Sample
+動作するものはWebにあげてないので、このリポジトリを`Clone`して`npm i && bower i && gulp`としてください。そうすっとサーバが立ち上がり、動作します。
