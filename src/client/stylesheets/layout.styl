@@ -1,3 +1,27 @@
 body
   height 100%
   color red
+.target
+  width 500px
+  height 200px
+  background #dadada
+
+.nghm_element
+  .nghm_message_wrap
+    display none
+  &:hover
+    .nghm_message_wrap
+      display block
+      width inherit
+      height inherit
+      background #9999aa50
+      position relative
+      top -5px
+      left -5px
+      border dashed #00000050 5px
+      p
+        width inherit
+        height inherit
+        display:table-cell
+        vertical-align middle
+        text-align center

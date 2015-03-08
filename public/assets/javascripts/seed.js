@@ -2,11 +2,12 @@
   "use strict";
   var app;
 
-  app = angular.module('seedApp', []);
+  app = angular.module('seedApp', ['ngHoverMessage']);
 
   app.controller("SeedController", [
     "$scope", function($scope) {
-      return $scope.body = "Hello World";
+      $scope.body = "Hello World";
+      return $scope.message = "Message";
     }
   ]);
 
