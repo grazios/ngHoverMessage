@@ -21,3 +21,19 @@ app.controller("HogeController",[
 ```
 ## Sample
 動作するものはWebにあげてないので、このリポジトリを`Clone`して`npm i && bower i && gulp`としてください。そうすっとサーバが立ち上がり、動作します。
+
+
+## Settings
+### Templates
+template/nghm-message.html  
+対象の要素にカーソルをhoverしたときに現れる要素。DOMに実際に挿入される。
+```
+<div class="nghm_message_wrap">
+  <p>
+    {{ message }}
+  </p>
+</div>
+```
+### CSS
+`.nghm_element` : ng-hover-messageを追加したElementに追加されるClass。このDirectiveがやってるのはこのClass追加とあとDOMの自動挿入だけやで  
+`.nghm_message_wrap` : Template参照
